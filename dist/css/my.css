@@ -1,0 +1,26 @@
+
+	body{
+		background-color:#BDBDBD;
+	}
+	#low{
+		 margin-top:80px;
+		 margin-left:200px;
+		}
+	#boxe h1{
+		margin-left:300px;
+		color: red;
+	}
+	#boxe h3{
+		margin-left:300px;
+		
+	}
+	.cl{
+		color: green;
+	}
+	.mv{
+		margin-right: 15px;
+	}
+	.lead{
+		font-size:30px;
+		color: green;
+	}
