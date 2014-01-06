@@ -1,4 +1,3 @@
-
 <?php
 require_once './include/parse.php';
 $err="";
@@ -53,7 +52,7 @@ $url=$_POST['url'];
  </div>
  <div class="row" id="low">
  	 <div class="container">
- 	<form  action="index.php" method="POST" enctype="multipart/form-data"> 
+ 	<form  action="index.php" method="POST" enctype="text/plain"> 
      <label class="lead">Album URL:</label>
     <input class="cl" name="url" type="text" value="" size="60"/>
     <button type="submit" name="submitted" class="btn btn-default btn-lg cl">
