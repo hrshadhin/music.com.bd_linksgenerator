@@ -43,7 +43,7 @@ $url=$_POST['url'];
 	
 		<div class="navbar-text btn-group navbar-right">
 			<button type="button" class="btn btn-default btn-lg mv">
-				<a href="https://github.com/hrshadhin/music.com.bd_linksgenerator" target="_blank"><span class="glyphicon glyphicon-cloud-download"></span>Get Sources</a>
+				<a href="https://github.com/hrshadhin/music.com.bd_linksgenerator" target="_new"><span class="glyphicon glyphicon-cloud-download"></span>Get Sources</a>
 			</button>
 			
 		</div>
