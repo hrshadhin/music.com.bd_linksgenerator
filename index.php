@@ -1,10 +1,12 @@
+
 <?php
 require_once './include/parse.php';
 $err="";
+$data="";
 if(isset($_POST['submitted'])){
 $url=$_POST['url'];
 	if($url==""){
-		$err="<h1>Please Fill up field with album url</h1>";
+		$err="<h1>Please Fill up field with album url</h1></font>";
 	}
 	else{
 	   $obl = new myParse;
@@ -43,7 +45,7 @@ $url=$_POST['url'];
 	
 		<div class="navbar-text btn-group navbar-right">
 			<button type="button" class="btn btn-default btn-lg mv">
-				<a href="https://github.com/hrshadhin/music.com.bd_linksgenerator" target="_new"><span class="glyphicon glyphicon-cloud-download"></span>Get Sources</a>
+				<a href="https://github.com/hrshadhin/music.com.bd_linksgenerator" target="_blank"><span class="glyphicon glyphicon-cloud-download"></span>Get Sources</a>
 			</button>
 			
 		</div>
@@ -52,10 +54,10 @@ $url=$_POST['url'];
  </div>
  <div class="row" id="low">
  	 <div class="container">
- 	<form  action="index.php" method="POST" enctype="text/plain"> 
-     <label class="lead">Album URL:</label>
-    <input class="cl" name="url" type="text" value="" size="60"/>
-    <button type="submit" name="submitted" class="btn btn-default btn-lg cl">
+ 	<form  action="index.php" method="POST" enctype="multipart/form-data"> 
+     <label>Album URL:</label>
+    <input name="url" type="text" value="" size="150"/>
+    <button type="submit" name="submitted" class="btn-success btn btn-default btn-lg pull-right">
 				<span class="glyphicon glyphicon-link"></span>Get Links</a>
 			</button>
     
@@ -75,6 +77,7 @@ $url=$_POST['url'];
    	 	 echo "<h3>";
    	 	 foreach ($data as $key => $value) {
 	   		echo "<a href='".$value."' targer='_blank'>".$key."</a><br>";
+	   		echo "-------------------------------<br>";
 	   
 	   }
 	   echo "</h3>";
