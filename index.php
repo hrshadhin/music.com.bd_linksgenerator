@@ -34,7 +34,7 @@ $url=$_POST['url'];
     <div class="row">
        <div class="container">
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<a class="navbar-brand" href="http://hrshadhin.tk">
+			<a class="navbar-brand" href="http://hrshadhin.me">
 				TuxBot
 				<br/> <em><small>Another CrazyCoder</small></em> 
 			</a>
